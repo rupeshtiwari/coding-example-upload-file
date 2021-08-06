@@ -1,0 +1,24 @@
+{
+  "name": "upload-image",
+  "version": "1.0.0",
+  "description": "upload image file demo",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.mjs",
+    "server:once": "node server/index.mjs"
+  },
+  "keywords": [
+    "upload",
+    "web",
+    "nodejs"
+  ],
+  "author": "Rupesh Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
